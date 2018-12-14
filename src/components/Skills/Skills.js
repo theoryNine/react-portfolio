@@ -1,6 +1,6 @@
 import React from 'react';
 import { SectionHead } from '../common/SectionHead/SectionHead';
-import { SkillItem } from '../SkillItem/SkillItem.js';
+import { SkillItem } from './SkillItem/SkillItem.js';
 
 export const Skills = () => {
     return(

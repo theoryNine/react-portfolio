@@ -1,6 +1,6 @@
 import React from 'react';
 import { SectionHead } from '../common/SectionHead/SectionHead.js';
-import { Project } from '../Project/Project.js';
+import { Project } from './Project/Project.js';
 
 export const Projects = () => {
     return(

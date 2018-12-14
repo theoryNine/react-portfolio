@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button } from '../common/Button/Button.js';
+import { Button } from '../../common/Button/Button.js';
 
 export const Project = ({projectLabel}) => {
     return(

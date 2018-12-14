@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavItem } from '../NavItem/NavItem.js';
+import { NavItem } from './NavItem/NavItem.js';
 
 export const Nav = () => {
     return(
