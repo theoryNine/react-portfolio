@@ -4,7 +4,7 @@ import { Project } from './Project/Project.js';
 
 export const Projects = () => {
     return(
-        <div className="projects container">
+        <div className="projects section container">
             <SectionHead sectionLabel="Projects" />
             <Project projectLabel="Spectrum Residential" />
             <Project projectLabel="Spectrum Business" />
@@ -15,4 +15,4 @@ export const Projects = () => {
             <Project projectLabel="Fresh Image Center of Dallas" />
         </div>
     )
-}
+}   

@@ -1,0 +1,30 @@
+.nav {
+    background-color: $navBg;
+    justify-content: space-around;
+    padding-left: 0;
+    text-transform: uppercase;
+
+    a {
+        color: $pureWhite;
+        letter-spacing: .2rem;
+        text-align: center;
+        text-decoration: none;
+        transition: .5s ease all;
+        width: 25%;
+
+        &:hover {
+            background-color: $hoverColor;
+            box-shadow: 0 0 10px $borderColor;
+            text-shadow: 0 0 10px $pureWhite;
+        }
+    }
+
+    li {
+        list-style-type: none;
+        padding: 15px 0;
+    }
+
+    @media (max-width: 1000px) {
+        display: none;
+    }
+}

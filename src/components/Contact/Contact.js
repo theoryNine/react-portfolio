@@ -4,7 +4,7 @@ import { SocialMedia } from '../SocialMedia/SocialMedia.js';
 
 export const Contact = () => {
     return(
-        <div className="contact container">
+        <div className="contact section container">
             <SectionHead sectionLabel="Contact Me" />
             <SocialMedia />
         </div>

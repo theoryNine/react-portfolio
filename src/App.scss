@@ -1,6 +1,10 @@
 @import './scss/colors.scss';
 @import './scss/fonts.scss';
+@import './scss/helpers.scss';
+@import './scss/hero.scss';
+@import './scss/nav.scss';
 @import './components/common/Button/Button.scss';
+@import './components/Footer/Footer.scss';
 
 :root {
   font-family: $mainFont;
@@ -10,8 +14,8 @@
 body {
   background-color: $bodyBg;
   color: $mainFontColor;
-  padding: 0;
-  margin: 0;
+  padding: 1rem;
+  margin: 2rem 0 1rem 0;
 }
 
 code {
@@ -28,4 +32,9 @@ code {
 .container {
   max-width: 1280px;
   width: 90%;
+}
+
+.section {
+  border: 1px solid $borderColor;
+  box-shadow: 0 0 10px $borderColor;
 }
