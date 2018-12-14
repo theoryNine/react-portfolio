@@ -7,7 +7,7 @@ export const About = () => {
     return(
         <div className="about section container">
             <div>
-                <SectionHead sectionLabel="Nice to meet you" />
+                <SectionHead sectionLabel="> Nice to meet you" />
                 <p>I'm a self-taught, detail-oriented Front End Developer and Certified AEM Developer based out of Brooklyn, New York. 
                 I've been tinkering with websites for over a decade now, and have been working professionally within the field for years. 
                 I build clean, coherent, accessible websites and apps to respond to the needs of a dynamic market for clients ranging from local 

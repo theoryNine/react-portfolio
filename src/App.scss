@@ -3,6 +3,8 @@
 @import './scss/helpers.scss';
 @import './scss/hero.scss';
 @import './scss/nav.scss';
+@import './scss/about.scss';
+@import './scss/skills.scss';
 @import './components/common/Button/Button.scss';
 @import './components/Footer/Footer.scss';
 
@@ -23,6 +25,11 @@ code {
     monospace;
 }
 
+h3 {
+  border-bottom: 1px solid $borderColor;
+  padding: 0 1rem 1rem 1rem;
+}
+
 .App {
   align-items: center;
   display: flex;
@@ -37,4 +44,9 @@ code {
 .section {
   border: 1px solid $borderColor;
   box-shadow: 0 0 10px $borderColor;
+  margin-bottom: 1.3rem;
+}
+
+.padded {
+  padding: 0 1rem;
 }
