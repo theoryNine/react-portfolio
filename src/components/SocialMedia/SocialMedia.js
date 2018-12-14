@@ -4,7 +4,7 @@ import { SocialItem } from './SocialItem/SocialItem.js';
 export const SocialMedia = () => {
     return(
         <div>
-            <SocialItem />
+            <SocialItem label="LinkedIn" brand="linkedin" />
         </div>
     )
 }

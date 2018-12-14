@@ -1,10 +1,10 @@
 import React from 'react';
 
-export const Button = ({url, label}) => {
+export const Button = ({url, buttonText}) => {
     return(
         <div>
             <a href={url}>
-                <button type="button">{label}</button>
+                <button type="button">{buttonText}</button>
             </a>
         </div>
     )

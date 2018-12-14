@@ -5,9 +5,9 @@ import { SubHead } from '../../components/common/SubHead/SubHead.js';
 
 export const Hero = () => {
     return(
-        <div>
-            <Heading text="Ansel Colvin" cursive="true" />
-            <SubHead text="Front End Developer" cursive="false" />
+        <div className="hero container">
+            <Heading text="Ansel Colvin" cursive="yes" />
+            <SubHead text="Front End Developer" />
             <Button url="#" label="Download Resume" />
         </div>
     )

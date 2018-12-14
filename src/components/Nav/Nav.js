@@ -3,7 +3,7 @@ import { NavItem } from './NavItem/NavItem.js';
 
 export const Nav = () => {
     return(
-        <ul>
+        <ul className="nav container">
             <NavItem itemLabel="> About Me <" itemLink="#" />
             <NavItem itemLabel="> Skills & Tools <" itemLink="#" />
             <NavItem itemLabel="> Projects <" itemLink="#" />

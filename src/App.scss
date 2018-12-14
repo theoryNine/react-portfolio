@@ -1,14 +1,31 @@
 @import './scss/colors.scss';
 @import './scss/fonts.scss';
-@import './components/Hero/Hero.scss';
 @import './components/common/Button/Button.scss';
 
 :root {
   font-family: $mainFont;
-  font-size: 16px;
+  font-size: $defaultSize;
+}
+
+body {
+  background-color: $bodyBg;
+  color: $mainFontColor;
+  padding: 0;
+  margin: 0;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.App {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  max-width: 1280px;
+  width: 90%;
 }

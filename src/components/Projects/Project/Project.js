@@ -4,7 +4,7 @@ import { Button } from '../../common/Button/Button.js';
 export const Project = ({projectLabel}) => {
     return(
         <div>
-            <Button label={projectLabel}></Button>
+            <Button buttonText={projectLabel} />
         </div>
     )
 }

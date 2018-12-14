@@ -1,7 +1,7 @@
 import React from 'react';
 
-export const SocialItem = () => {
+export const SocialItem = ({label, brand}) => {
     return(
-        <div>Social</div>
+        <div className={brand}>{label}</div>
     )
 }

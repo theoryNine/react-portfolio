@@ -4,7 +4,7 @@ import { Project } from './Project/Project.js';
 
 export const Projects = () => {
     return(
-        <div>
+        <div className="projects container">
             <SectionHead sectionLabel="Projects" />
             <Project projectLabel="Spectrum Residential" />
             <Project projectLabel="Spectrum Business" />
