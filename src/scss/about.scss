@@ -2,4 +2,16 @@
     p {
         padding: 0 1rem;
     }
+
+    .image {
+        background-size: cover;
+        border-left: 1px solid $borderColor;
+        opacity: .7;
+        transition: 1s ease all;
+        width: 100%;
+
+        &:hover {
+            opacity: 1;
+        }
+    }
 }
