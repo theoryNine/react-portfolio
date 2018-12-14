@@ -1,7 +1,7 @@
 import React from 'react';
 
-export const SubHead = ({text, classes}) => {
+export const SubHead = ({text, cursive}) => {
     return(
-        <h2 className={classes}>{text}</h2>
+        <h2 className={cursive === 'true' ? 'cursive' : ''}>{text}</h2>
     )
 }
