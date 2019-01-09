@@ -2,6 +2,35 @@
     h3 {
         text-align: center;
     }
+
+    .screenshots {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin-top: 1rem;
+
+        .screenshot {
+            border: 1px solid $borderColor;
+            box-shadow: 0 0 10px $borderColor;
+            margin-bottom: 1rem;
+            opacity: .8;
+            transition: .5s ease all;
+            width: 47%;
+
+            &:hover {
+                opacity: 1;
+            }
+
+            @media (max-width: $tablet) {
+                width: 100%;
+            }
+
+            img {
+                width: 100%;
+            }
+        }
+    }
 }
 
 .accordion {
@@ -14,6 +43,13 @@
         flex-direction: column;
         justify-content: center;
         width: 95%;
+
+        &:hover {
+            .accordion__title {
+                background-color: $red;
+                box-shadow: 0 0 10px $red;
+            }
+        }
     }
 
     &__title {
@@ -31,6 +67,11 @@
         outline: 0;
         padding: .7rem 0;
         transition: .5s ease all;
+
+        &[aria-expanded=true] {
+            background-color: $red;
+            margin-bottom: 0;
+        }
 
         h4 {
             margin: 0;
