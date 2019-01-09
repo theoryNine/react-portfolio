@@ -10,54 +10,6 @@
         justify-content: center;
     }
 
-    .social-bar {
-        align-items: center;
-        border-top: 1px solid $borderColor;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        padding: 1rem 0;
-        width: 100%;
-
-        @media (max-width: 500px) {
-            flex-direction: column;
-        }
-
-        &::before {
-            content: "visit my:";
-            font-family: 'Pacifico', cursive;
-            font-size: 1.3rem;
-            letter-spacing: .1rem;
-            margin-right: .8rem;
-
-            @media (max-width: 500px) {
-                margin-bottom: 1rem;
-            }
-        }
-
-        .linkedin {
-            background-color: $linkedInBlue;
-            border-radius: 360px;
-            box-shadow: 0 0 10px $linkedInBlue;
-            letter-spacing: .2rem;
-            opacity: .8;
-            outline: none;
-            padding: .5rem 0;
-            text-align: center;
-            text-decoration: none;
-            transition: .5s ease all;
-            max-width: 95%;
-            width: 320px;
-
-            &:hover {
-                background-color: $lightTeal;
-                box-shadow: 0 0 30px $lightTeal;
-                opacity: 1;
-                text-shadow: 0 0 10px $pureWhite;
-            }
-        }
-    }
-
     .contact-form {
         width: 49%;
 
