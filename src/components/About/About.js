@@ -5,7 +5,7 @@ import NYC from '../../assets/images/nyc.png';
 
 export const About = () => {
     return(
-        <div className="about section container flex">
+        <div className="about section container flex" id="about">
             <div>
                 <SectionHead sectionLabel="Nice to meet you" />
                 <p>I'm a self-taught, detail-oriented Front End Developer and Certified AEM Developer based out of Brooklyn, New York. 

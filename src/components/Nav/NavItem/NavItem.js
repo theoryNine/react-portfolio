@@ -1,7 +1,8 @@
 import React from 'react';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 export const NavItem = ({itemLink, itemLabel}) => {
     return(
-        <a href={itemLink}><li>{itemLabel}</li></a>
+        <AnchorLink href={itemLink}><li>{itemLabel}</li></AnchorLink>
     )
 }

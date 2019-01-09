@@ -4,7 +4,7 @@ import { SkillItem } from './SkillItem/SkillItem.js';
 
 export const Skills = () => {
     return(
-        <div className="skills section container">
+        <div className="skills section container" id="skills">
             <SectionHead sectionLabel="Skills, Tools, & Certifications" />
             <ul>
                 <SkillItem skillLabel="Certified Adobe AEM Developer" brand="adobe" color="adobeOrange" url="https://www.adobe.com/marketing/experience-manager.html" />
