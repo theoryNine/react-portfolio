@@ -1,7 +1,11 @@
 import React from 'react';
 
-export const SkillItem = ({skillLabel, brand}) => {
+export const SkillItem = ({color, skillLabel, brand, url}) => {
     return(
-        <li className={brand}>{skillLabel}</li>
+        <a href={url} target="_blank" rel="noopener noreferrer">
+            <li className={'color-box ' + color}>
+                <div className={'skill-name ' + brand}>{skillLabel}</div>
+            </li>
+        </a>
     )
 }
